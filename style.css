@@ -1,0 +1,85 @@
+/* Header CSS  */
+.navbar-brand img{
+    width: 150px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar a{
+    color: #000;
+    
+}
+
+/* Banner Css  */
+
+.banner{
+    background-image: url('assets/img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 100px 100px;
+    border-radius: 2px;
+}
+section.banner h2 {
+    background: #fff;
+    width: 297px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+section.banner a {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+
+/* Food Menus  */
+.section-title h2,.feedback-title {
+    color: #31D2F2;
+    text-align: center;
+}
+
+.data-time{
+    font-size: 12px;
+}
+.section-title p {
+    text-align: center;
+}
+
+section.food-menus {
+    margin-top: 60px;
+}
+
+.food-items {
+    display: flex;
+    margin-top: 50px;
+}
+
+.single-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.single-item {
+    margin-left: 20px;
+}
+
+ul.food-features li {background: #ddd;margin-top: 10px;padding: 0px 10px;border-radius: 5px;border-bottom: 1px solid #333;transition: 0.5s;}
+
+ul.food-features li:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/* Team Section Style  */
+section.team img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

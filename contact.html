@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FontAwesome  -->
+    <script src="https://kit.fontawesome.com/1678d363f3.js" ></script>
+    <!-- Favicon  -->
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.jpg">
+    <!-- BootStrap CSS  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Start  -->
+    <Header>
+        <!-- Logo & Menu  -->
+        <div class="logo-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt=""> </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link" href="about.html">About us</a>
+                          <a class="nav-link" href="contact.html">Contact US</a>
+                          <a class="nav-link" href="faq.html">FAQ</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+
+    </Header>
+    <!-- Header End  -->
+
+
+    <!-- Contact Section Start  -->
+    <!--Section: Contact v.2-->
+<section class="contact mb-4">
+  <div class="container">
+     <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="name" class="">Your name</label>
+                          <input type="text" id="name" name="name" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="email" class="">Your email</label>
+                          <input type="text" id="email" name="email" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <label for="subject" class="">Subject</label>
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                        <label for="message">Your message</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left mt-3">
+              <a class="btn btn-primary">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fa-solid fa-location-dot"></i>
+                  <p>Mirpur, Dhaka</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>01784387370</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>test@test.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+  </div>
+
+ 
+
+</section>
+<!--Section: Contact v.2-->
+    <!-- Contact Section End  -->
+
+
+    <!-- BootStrap JS  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
